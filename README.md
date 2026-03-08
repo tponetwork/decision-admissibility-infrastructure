@@ -99,3 +99,14 @@ Decision Admissibility Infrastructure represents one architectural approach to i
 ## Architecture
 
 ![Decision Admissibility Architecture](CA1E8B81-E09D-4FC9-A896-24C9DF1E8428.png)
+
+## Status
+
+This repository provides the canonical conceptual description of Decision Admissibility Infrastructure.
+
+Implementation architecture, evaluation mechanisms, and system components are not included in this repository.
+
+## Author
+
+George-Adrian Caboc  
+TPO Network
