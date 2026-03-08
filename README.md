@@ -96,3 +96,6 @@ Its role is limited to determining whether a proposed decision may enter the exe
 As AI systems move from advisory roles to operational decision environments, governance must shift from descriptive oversight to structural execution control.
 
 Decision Admissibility Infrastructure represents one architectural approach to implementing that control boundary.
+## Architecture
+
+![Decision Admissibility Architecture](CA1E8B81-E09D-4...)
