@@ -109,7 +109,8 @@ Implementation architecture, evaluation mechanisms, and system components are no
 ## Citation
 
 Decision Admissibility Infrastructure  
-George-Adrian Caboc, TPO Network  
+George-Adrian Caboc 
+TPO Network  
 2026
 
 ## Author
