@@ -106,6 +106,12 @@ This repository provides the canonical conceptual description of Decision Admiss
 
 Implementation architecture, evaluation mechanisms, and system components are not included in this repository.
 
+## Citation
+
+Decision Admissibility Infrastructure  
+George-Adrian Caboc, TPO Network  
+2026
+
 ## Author
 
 George-Adrian Caboc  
