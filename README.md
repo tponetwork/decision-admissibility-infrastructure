@@ -98,4 +98,4 @@ As AI systems move from advisory roles to operational decision environments, gov
 Decision Admissibility Infrastructure represents one architectural approach to implementing that control boundary.
 ## Architecture
 
-![Decision Admissibility Architecture]()
+![Decision Admissibility Architecture](CA1E8B81-E09D-4FC9-A896-24C9DF1E8428.png)
