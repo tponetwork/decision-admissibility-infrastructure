@@ -21,7 +21,7 @@ Execution should occur only after the decision's admissibility has been structur
 ## Architectural Model
 
 The minimal architectural model is:
-### Decision Admissibility Control Flow
+Decision Admissibility Control Flow
 
 ```mermaid
 flowchart TD
