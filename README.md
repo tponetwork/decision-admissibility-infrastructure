@@ -21,17 +21,44 @@ Execution should occur only after the decision's admissibility has been structur
 ## Architectural Model
 
 The minimal architectural model is:
+### Decision Admissibility Control Flow
 
-Decision Proposal  
-↓  
-Decision Unit Normalization  
-↓  
-Admissibility Evaluation  
-↓  
-Verdict  
-↓  
-Execution Allowed / Execution Blocked
+```mermaid
+flowchart TD
 
+A[Human Authority] --> B[Decision Proposal]
+
+B --> C[Decision Intake Layer]
+
+C --> D[Decision Unit Normalization]
+
+D --> E[Decision Unit]
+
+E --> F[Authority Verification]
+
+F --> G[Admissibility Engine]
+
+O[Constitutional Rules Engine] --> G
+
+G --> H{Admissibility Verdict}
+
+H -->|Admissible| I[Execution Gate]
+
+I --> J[System Interface]
+
+J --> K[AI Systems / Enterprise Systems / Operations]
+
+K --> L[Action Executed]
+
+H -->|Inadmissible| M[Execution Block]
+
+M --> N[Rejection Record]
+
+E --> P[Audit & Evidence Layer]
+
+P --> Q[Immutable Decision Record]
+
+Q --> R[Decision Reconstruction]
 ---
 
 ## Decision Unit
