@@ -22,14 +22,14 @@ Execution should occur only after the decision's admissibility has been structur
 
 The minimal architectural control path is:
 
-1. Human Authority  
-2. Decision Proposal  
-3. Decision Intake Layer  
-4. Decision Unit Normalization  
-5. Decision Unit  
-6. Authority Verification  
-7. Admissibility Engine  
-8. Admissibility Verdict  
+Human Authority
+Decision Proposal
+Decision Intake Layer
+Decision Unit Normalization
+Decision Unit
+Admissibility Engine
+Authority Verification
+Admissibility Verdict  
 
 If admissible:
 
