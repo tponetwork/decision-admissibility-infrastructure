@@ -22,6 +22,7 @@ Execution should occur only after the decision's admissibility has been structur
 
 The minimal architectural control path is:
 
+
 Human Authority
 Decision Proposal
 Decision Intake Layer
